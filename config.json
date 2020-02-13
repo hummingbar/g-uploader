@@ -6,7 +6,7 @@
   },
   "transport": {
     "scope": "https://www.googleapis.com/auth/drive",
-    "downloadPath": "~/Downloads"
+    "downloadPath": "/var/data"
   },
   "credential": {
     "installed": {
