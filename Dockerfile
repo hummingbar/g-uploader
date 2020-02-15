@@ -11,7 +11,7 @@ ENV PASSWORD google
 
 WORKDIR /g-uploader
 
-RUN npm install && chmod +x setup.sh
+RUN npm install && npm install -g forever && chmod +x setup.sh
 
 EXPOSE 8080 6800
 
