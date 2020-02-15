@@ -10,4 +10,4 @@ echo "Editing Password"
 
 sed -i 's/passwd/'"$PASSWORD"'/' config.json
 
-npm start
+forever start server.js
